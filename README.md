@@ -18,8 +18,8 @@ Management API built with Laravel.
 2. Install dependencies
    npm install
 
-3. Create a .env file in the project root
-   VITE_API_ENDPOINT=http://localhost/client-management-backend/public/api
+3. Create the environment file
+   Copy .env.example to .env and update the url if your backend runs elsewhere
 
 4. Start the development server
    npm run dev
