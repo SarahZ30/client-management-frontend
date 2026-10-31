@@ -1,0 +1,74 @@
+// layout styles
+.default_layout {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 64px);
+
+  .page_content {
+    flex: 1;
+  }
+}
+
+// form component styles
+.form_component {
+  .form_allignment {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+   .form_card {
+    width: 100%;
+    max-width: 880px;
+    border: 1px solid #e8d8ce;
+  }
+
+  .form_heading {
+    font-size: 22px;
+    font-weight: 600;
+    color: #3b2f2a;
+  }
+
+  .form_subheading {
+    font-size: 13px;
+    color: #7a6258;
+    padding-top: 4px;
+    padding-bottom: 16px;
+  }
+
+  .field_label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #334155;
+  }
+
+    .form_btn {
+    background-color: #1c1917;
+
+    .btn_text {
+      color: white;
+      text-transform: capitalize;
+    }
+  }
+}
+
+// table component styles
+.table_component {
+  .page_heading {
+    h2 {
+      font-weight: 600;
+      letter-spacing: -0.3px;
+    }
+
+    .heading_note {
+      font-size: 13px;
+      color: #64748b;
+    }
+  }
+
+  .action_buttons {
+    display: flex;
+    align-items: center;
+  }
+}
